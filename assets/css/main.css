@@ -1727,3 +1727,8 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.justify-text{
+  text-align: justify;
+  text-justify: inter-word;
+}
