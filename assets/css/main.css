@@ -1781,3 +1781,14 @@ section,
   /* height: 30%; */
   max-height: 600px;
 }
+
+.table .table-clasificacion-resultado td{
+  background-color: rgb(132, 132, 236);
+  color: white;
+  font-weight: 600;
+}
+
+.table .table-warning th{
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
