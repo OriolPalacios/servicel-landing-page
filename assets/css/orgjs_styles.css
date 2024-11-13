@@ -8,14 +8,14 @@
     --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
     /* adding the new colors */
     --black-olive: #3B3A2Bff;
-    --citrine: #DDC830ff;
+    --citrine: rgb(200, 181, 43);
     --field-drab: #605729ff;
     --jet: #3B383Eff;
     --black-olive-2: #3F3E34ff;
   }
 
 [data-n-id] rect {
-    fill: var(--accent-color);
+    fill: var(--citrine);
 }
 
 [data-n-id] line {
@@ -27,7 +27,7 @@
 }
 
 [data-n-id] circle {
-    fill: var(--accent-color);
+    fill: var(--citrine);
     box-shadow: 0 0 10px var(--black-olive);
     stroke: var(--black-olive-2);
 }   
