@@ -1,0 +1,33 @@
+/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+:root { 
+    --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+    --default-color: #3B383Eff; /* Default color used for the majority of the text content across the entire website */
+    --heading-color: #191919; /* Color for headings, subheadings and title throughout the website */
+    --accent-color: #DDC830ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+    --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+    /* adding the new colors */
+    --black-olive: #3B3A2Bff;
+    --citrine: #DDC830ff;
+    --field-drab: #605729ff;
+    --jet: #3B383Eff;
+    --black-olive-2: #3F3E34ff;
+  }
+
+[data-n-id] rect {
+    fill: var(--accent-color);
+}
+
+[data-n-id] line {
+    stroke: var(--black-olive);
+}
+
+[data-n-id] text {
+    fill: var(--background-color);
+}
+
+[data-n-id] circle {
+    fill: var(--accent-color);
+    box-shadow: 0 0 10px var(--black-olive);
+    stroke: var(--black-olive-2);
+}   
