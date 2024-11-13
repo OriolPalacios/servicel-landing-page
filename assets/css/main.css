@@ -1767,3 +1767,17 @@ section,
   text-align: justify;
   text-justify: inter-word;
 }
+
+.org-chart-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#tree{
+  width: 80%;
+  /* height: 30%; */
+  max-height: 600px;
+}

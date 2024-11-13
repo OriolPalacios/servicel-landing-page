@@ -130,6 +130,7 @@
         <h2>Sobre Nosotros<br></h2>
         <p>Más allá de un servicio, <i>una experiencia</i></p>
       </div><!-- End Section Title -->
+      
 
       <div class="container">
 
@@ -157,15 +158,19 @@
           </div>
 
         </div>
-
       </div>
-
-    </section><!-- /About Section -->
+      <!-- to hide in mobile -->
+    </section>
+    <!-- /About Section -->
     <!-- Cards Section -->
     <section id="cards" class="cards section">
-
+      <div class="container section-title" data-aos="fade-up" data-aos-delay="100">
+        <span>Lo que nos Representa<br></span>
+        <h2>Lo que nos Representa<br></h2>
+        <p>Lo que somos, <i>lo que representamos</i></p>
+      </div>
       <div class="container">
-
+        
         <div class="row no-gutters">
 
           <div class="col-lg-6 col-md-6 card" data-aos="fade-up" data-aos-delay="100">
@@ -564,65 +569,10 @@
       </div><!-- End Section Title -->
 
       <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <img src="https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>Andric</h4>
-                <span>Jefe de reparaciones</span>
-                <!-- <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <img src="https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg" class="img-fluid" alt="">
-
-              <div class="member-content">
-                <h4>Papá de Andric</h4>
-                <span>Gerente General</span>
-                <!-- <p>
-                  Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
-                </p> -->
-                <!-- <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> -->
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <img src="https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>Andric</h4>
-                <span>Jefe de obtención de repuestos</span>
-                <!-- <p>
-                  Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
-                </p> -->
-                  <!-- <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div> -->
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
+        <div class="col-lg-6 org-chart-container d-none d-md-block d-sm-block">
+          <div id="org-chart"></div>
         </div>
+        
 
       </div>
 
@@ -756,10 +706,15 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/anime-master/lib/anime.min.js"></script>
+  <script src="assets/vendor/orgjs/orgchart.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/animation-test.js"></script>
+  <script src="assets/js/org-test.js"></script>
 
 </body>
+
 
 </html>
