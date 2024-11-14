@@ -1792,3 +1792,44 @@ section,
   background-color: var(--accent-color);
   color: var(--contrast-color);
 }
+
+
+#foda .table .table-primary th{
+  background-color: rgb(43, 43, 140);
+  color: var(--contrast-color);
+}
+#foda .table .table-primary td{
+  background-color: rgb(43, 43, 140);
+  color: var(--contrast-color);
+}
+
+#foda .table .table-primary:first-child{
+  background-color: var(--background-color);
+  color: red;
+}
+
+#foda .table .table-primary td{
+  /* background-color: rgb(43, 43, 140); */
+  background-color: var(--default-color);
+  color: var(--contrast-color);
+}
+
+#foda .table-primary-fake td:first-child {
+  /* background-color: rgb(43, 43, 140); */
+  background-color: var(--black-olive);
+  color: var(--contrast-color);
+  font-weight: 600;
+}
+
+#foda .table-primary-fake .fake-title {
+  /* background-color: rgb(43, 43, 140); */
+  color: var(--contrast-color);
+  font-weight: 600;
+}
+
+#foda .main-list-container .list-group li{
+  /* background-color: rgb(73, 73, 147); */
+  /* background-color: #494949; */
+  background-color: var(--default-color);
+  color: white;
+}
