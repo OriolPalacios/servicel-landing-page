@@ -64,7 +64,12 @@
   const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
-      preloader.remove();
+      setTimeout(() => {
+        preloader.classList.add('slide-up')
+        setTimeout(() => {
+          preloader.remove();
+        }, 600);
+      }, 4200);
     });
   }
 
