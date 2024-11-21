@@ -6,6 +6,7 @@ OrgChart.templates.diva.field_1 = '<text data-width="185" data-text-overflow="mu
  
 let chart = new OrgChart('#org-chart', {
     mouseScrool: OrgChart.none,
+    scaleInitial: OrgChart.match.height,
     toolbar: {
         layout: true,
         zoom: true,
@@ -30,15 +31,15 @@ let chart = new OrgChart('#org-chart', {
         }
     },
     nodes: [
-        { id: 1, name: "Andric", tags: ["main"], title: "Gerente General", img: "https://cdn.balkan.app/shared/empty-img-white.svg" },
+        { id: 1, name: "Libert Bueno Dextre", tags: ["main"], title: "Gerente General", img: "https://cdn.balkan.app/shared/empty-img-white.svg" },
         { id: 2, pid: 1, tags: ["area"],  name: "Área de obtención de repuestos"},
         { id: 3, pid: 1, tags: ["area"],  name: "Área de distribución de repuestos"},
         { id: 4, pid: 1, tags: ["area"],  name: "Área de reparación de equipos móviles"},
         { id: 5, pid: 1, tags: ["area"],  name: "Área de ventas"},
-        { id: 6, pid: 2, tags: ["bosses"], name: "Andric1", title: "Jefe de Obtención de repuestos", img: "https://cdn.balkan.app/shared/empty-img-white.svg" },
-        { id: 7, pid: 3, tags: ["bosses"], name: "Andric2", title: "Jefe de Distribución de repuestos", img: "https://cdn.balkan.app/shared/empty-img-white.svg" },
-        { id: 8, pid: 4, tags: ["bosses"], name: "Andric3", title: "Jefe de Reparaciones", img: "https://cdn.balkan.app/shared/empty-img-white.svg" },
-        { id: 9, pid: 5, tags: ["bosses"], name: "Andric4", title: "Jefe de Ventas", img: "https://cdn.balkan.app/shared/empty-img-white.svg" },
+        { id: 6, pid: 2, tags: ["bosses"], name: "Andric Bueno Lescano", title: "Jefe de Obtención de     repuestos", img: "https://cdn.balkan.app/shared/empty-img-white.svg" },
+        { id: 7, pid: 3, tags: ["bosses"], name: "Luigui Palma Beltrán", title: "Jefe de Distribución de repuestos", img: "https://cdn.balkan.app/shared/empty-img-white.svg" },
+        { id: 8, pid: 4, tags: ["bosses"], name: "Hector Quispe Mercado", title: "Jefe de Reparaciones", img: "https://cdn.balkan.app/shared/empty-img-white.svg" },
+        { id: 9, pid: 5, tags: ["bosses"], name: "Jesús Challco Masón", title: "Jefe de Ventas", img: "https://cdn.balkan.app/shared/empty-img-white.svg" },
         { id: 10, pid: 6, tags: ["area"], name: "Equipo de Logística de Repuestos", },
         { id: 11, pid: 7, tags: ["area"], name: "Equipo de Distribución", },
         { id: 12, pid: 8, tags: ["area"], name: "Equipo de Técnicos", },

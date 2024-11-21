@@ -69,7 +69,7 @@
         setTimeout(() => {
           preloader.remove();
         }, 600);
-      }, 4200);
+      }, 3100 );
     });
   }
 
